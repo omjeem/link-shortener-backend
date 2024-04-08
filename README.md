@@ -20,8 +20,10 @@ This application is built using Node.js and TypeScript, leveraging Zod for valid
       ```bash
       npm install
 
-4. **Run it locally**  
-   - Access the backend on following url:
-      ```bash
-      http://localhost:3000
-
+4. **Build and run it locally**  
+     ```bash
+      npx tsc -b; node build/index.js
+     
+5. **Access it on**  
+     ```bash
+      http://localhost:3000 
