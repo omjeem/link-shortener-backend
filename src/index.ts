@@ -19,6 +19,9 @@ app.use(express.json())
 app.use("/user", userRouter)
 app.use("/link", linkRouter)
 
+// createTable() // Uncomment and run the following command when creating the table, then comment out
+// deleteTables() // Uncomment and run the following command when deleting the table, then comment out
+
 
 app.get("/:id", async (req, res) => {
     const id = req.params.id
