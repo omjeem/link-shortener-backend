@@ -5,43 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invalid URL</title>
     <style>
-        /* Centering the content */
         body {
-            background-color: #f5f5f5; /* Light gray background */
+            background-color: #f5f5f5; 
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Make sure the content is vertically centered */
+            height: 100vh;
         }
         /* Styling the message box */
         .message-box {
             text-align: center;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-            background-color: #fff; /* White background */
-            max-width: 400px; /* Limit message box width */
-            width: 90%; /* Responsive width */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+            background-color: #fff; 
+            max-width: 400px; 
+            width: 90%; 
         }
-        /* Styling the heading */
         .message-box h1 {
-            color: #e74c3c; /* Red color for heading */
+            color: #e74c3c; 
             font-size: 24px;
             margin-bottom: 10px;
         }
-        /* Styling the paragraph */
         .message-box p {
-            color: #333; /* Dark gray color for text */
+            color: #333; 
             font-size: 18px;
             margin-bottom: 20px;
         }
-        /* Styling the button */
         .button {
-            background-color: #e74c3c; /* Red background */
-            color: #fff; /* White text color */
+            background-color: #e74c3c; 
+            color: #fff; 
             border: none;
             padding: 10px 20px;
             font-size: 16px;
@@ -50,7 +46,7 @@
             transition: background-color 0.3s ease;
         }
         .button:hover {
-            background-color: #c0392b; /* Darker red on hover */
+            background-color: #c0392b; 
         }
     </style>
 </head>
@@ -61,7 +57,6 @@
         <button class="button" onclick="goBack()">Go Back</button>
     </div>
     <script>
-        // JavaScript function to go back to the previous page
         function goBack() {
             window.history.back();
         }
