@@ -1,4 +1,4 @@
-# Link-Shortener Application
+# Link-Shortener Backend Application
 
 This application is built using Node.js and TypeScript, leveraging Zod for validation purposes.
 
